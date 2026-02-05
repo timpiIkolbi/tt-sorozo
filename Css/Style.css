@@ -1,0 +1,99 @@
+/*Hivatkozások*/
+body {
+    margin: 0;
+    font-family:quintessential, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    background-image: url("../Pics/CSD.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-image: url("../Pics/742afa31-2567-44c9-9d2a-cc1c4bd49a7b.png");
+    box-shadow: 0 0 10px gray;
+    height: 80px;
+    border: #6B3E1E 5px solid;
+  }
+  nav div {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: row-reverse;
+    
+  }
+  @media screen and (min-width: 40em) {
+    nav div {
+      align-items: center;
+    }
+  }
+  nav div ul {
+    display: none;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+  }
+  @media screen and (min-width: 40em) {
+    nav div ul {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+    }
+    
+  }
+  nav div ul li {
+    text-align: center;
+  }
+  nav div ul li a {
+    display: block;
+    line-height: 1rem;
+    padding: 1em;
+    text-decoration: none;
+    color: #F5C26F;
+    text-shadow: 10px 10px 10px black;
+    margin-right: 25px;
+    
+  }
+  nav div ul li a:hover {
+    background-color: rgba(68, 34, 0, 0.5);
+  }
+  nav div input[type=checkbox] {
+    display: none;
+  }
+  nav div input[type=checkbox]:checked + ul {
+    display: flex;
+  }
+  nav div label {
+    display: flex;
+    padding: 0.75rem;
+    cursor: pointer;
+    align-items: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 40em) {
+    nav div label {
+      display: none;
+    }
+  }
+  nav div span {
+    background-color: #F5C26F;
+    display: block;
+    height: 4px;
+    width: 2rem;
+  }
+  
+  nav div span {
+    background-color: #F5C26F;
+    display: block;
+    height: 4px;
+    width: 2rem;
+  }
+  .foresz{
+    background-color: black;
+  }
