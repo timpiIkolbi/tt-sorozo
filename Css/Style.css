@@ -14,7 +14,7 @@ body {
     justify-content: center;
     background-image: url("../Pics/742afa31-2567-44c9-9d2a-cc1c4bd49a7b.png");
     box-shadow: 0 0 10px gray;
-    height: 80px;
+    height: 90px;
     border: #6B3E1E 5px solid;
   }
   nav div {
@@ -56,6 +56,7 @@ body {
     color: #F5C26F;
     text-shadow: 10px 10px 10px black;
     margin-right: 25px;
+    margin-top: 10px;
     
   }
   nav div ul li a:hover {
@@ -94,6 +95,16 @@ body {
     height: 4px;
     width: 2rem;
   }
+  .logo{
+    margin-right: 50px;
+  }
+    .foldal-img{
+    width: 100px;
+  }
+  /*Főoldal*/
   .foresz{
     background-color: black;
+    margin-top: 1000px;
   }
+
+ 
