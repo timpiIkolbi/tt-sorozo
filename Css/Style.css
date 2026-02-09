@@ -103,8 +103,25 @@ body {
   }
   /*Főoldal*/
   .foresz{
-    background-color: black;
-    margin-top: 1000px;
+    margin-top: 500px;
   }
+.fooldal-szoveg{
+  display: flex;
+  float: right;
+  color: #F5C26F;
+  background-color:rgba(107, 62, 30, 70%);
+  border: black solid 5px;
+  float: right;
+}
+.keeep{
+  display: flex;
+  width: 400px;
+}
+.kepes-fooldal{
+}
+.haur{
+  display: flex;
+  margin-top: 500px;
+  gap: 75px;
 
- 
+}
