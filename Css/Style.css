@@ -4,9 +4,8 @@ body {
     font-family:quintessential, sans-serif;
     font-style: italic;
     font-size: 30px;
-    background-image: url("../Pics/CSD.png");
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size:cover; 
   }
   
   nav {
@@ -42,6 +41,7 @@ body {
       display: flex;
       flex-direction: row;
       width: auto;
+      
     }
     
   }
@@ -57,6 +57,7 @@ body {
     text-shadow: 10px 10px 10px black;
     margin-right: 25px;
     margin-top: 10px;
+    z-index: 16;
     
   }
   nav div ul li a:hover {
@@ -128,7 +129,7 @@ body {
   display: flex;
   margin-top: 25%;
   gap: 25px;
-  margin-left: 15%;
+  margin-left: 7%;
 
 }
 .kepes-fooldal2{
@@ -136,5 +137,9 @@ body {
   border-radius: 20px;
 }
 footer{
-  background-color: black;
+  color: #F5C26F;
+  background-color:rgba(107, 62, 30, 70%);
+}
+.ytkep{
+  width: 100px;
 }
