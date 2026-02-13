@@ -6,7 +6,7 @@ body {
     font-size: 30px;
     background-image: url("../Pics/CSD.png");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: contain; 
   }
   
   nav {
@@ -111,17 +111,30 @@ body {
   color: #F5C26F;
   background-color:rgba(107, 62, 30, 70%);
   border: black solid 5px;
-  float: right;
+  width: 500px;
+  padding: 15px;
+  border: 5px black solid;
+  border-radius: 20px;
 }
 .keeep{
   display: flex;
-  width: 400px;
+  width: 500px;
 }
 .kepes-fooldal{
+  border: 5px black solid;
+  border-radius: 20px;
 }
 .haur{
   display: flex;
-  margin-top: 500px;
-  gap: 75px;
+  margin-top: 25%;
+  gap: 25px;
+  margin-left: 15%;
 
+}
+.kepes-fooldal2{
+  border: 5px black solid;
+  border-radius: 20px;
+}
+footer{
+  background-color: black;
 }
