@@ -1,47 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CsizmaDia söröző</title>
-    <link rel="stylesheet" href="Css/Style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CsizmaDia Söröző</title>
+<link rel="stylesheet" href="css.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-        <nav>
-            <div>
-                <label for="menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <input type="checkbox" id="menu">
-                <ul>
-                    <a href="Főoldal.html" class="logo"> <img class="foldal-img" src="Pics/CSDlogo-removebg-preview.png" alt="CsizmaDia söröző"></a>
-                    <li><a href="Főoldal.html">Főoldal</a></li>
-                    <li><a href="Termékek.html">Termékek</a></li>
-                    <li><a href="Események.html">Események</a></li>
-                    <li><a href="Rólunk.html">Rólunk</a></li>
-                </ul>
-            </div>
-        </nav>
-    <main>
-        <section class="haur">
-            <section class="kepes-fooldal">
-                <img class="keeep" src="Pics/87ba2173-31ce-4d0f-9455-8658c9b4b841.png" alt="">
-            </section>
-            <section class="fooldal-szoveg">
-                <p>A CsizmaDia Söröző nem csak egy kocsma – ez egy törzshely. Itt mindig folyik a jó sör,szól a jó hangulat, és sosem fogysz ki a jó társaságból. <br> Akár egy gyors korsóra ugorsz be, akár egész estére maradsz, nálunk jó helyen jársz.
-                    <br>
-                    <br>
-                Klasszikus kedvencek, különleges csapok, laza arcok és emlékezetes esték – ez a CsizmaDia.</p>
-            </section>
-        </section>
-        <div class="foresz">
+
+    <header class="header">
+        <nav class="navbar">
             
+            <a href="asd.html" class="logo">
+                <img class="foldal-img" src="Pics/CSDlogo-removebg-preview.png" alt="CsizmaDia söröző">
+            </a>
+    
+            
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+    
+            <ul class="nav-links">
+                <li><a href="Főoldal.html">Főoldal</a></li>
+                <li><a href="Termékek.html">Termékek</a></li>
+                <li><a href="Események.html">Események</a></li>
+                <li><a href="Rólunk.html">Rólunk</a></li>
+            </ul>
+    
+        </nav>
+    
+        <div class="hero">
+            <h1>CsizmaDia Söröző</h1>
+            <p>Stílus. Minőség. Hangulat.</p>
+            <a href="#kinalat" class="btn-glow">Fedezd fel</a>
         </div>
-    </main>
-    <footer>
-        
-    </footer>
+    </header>
+    
+
+
+
+<section id="kinalat" class="section beers">
+    <h2>Kiemelt Kínálat</h2>
+
+    <div class="beer-grid">
+        <div class="beer-card" id="elso">
+            <div class="beer-overlay"></div>
+            <h3>Kőbányai</h3>
+            <p>A sörimádóknak a tökéletes választás.</p>
+        </div>
+
+        <div class="beer-card" id="masodik">
+            <div class="beer-overlay"></div>
+            <h3>Monster Ultra</h3>
+            <p>Az élet elixirje.</p>
+        </div>
+
+        <div class="beer-card" id="harmadik">
+            <div class="beer-overlay"></div>
+            <h3>Hordós sör kihivás</h3>
+            <p>A bátraknak ajánlott kihivás.</p>
+        </div>
+    </div>
+</section>
+
+<section id="kapcsolat" class="section contact glass">
+    <h2>Kapcsolat</h2>
+    <p>📍 Baja, Központ tér 5</p>
+    <p>📞 +36 30 123 4567</p>
+    <p>✉️ info@csizmadia.hu</p>
+</section>
+
+<footer>
+    <p>© 2026 CsizmaDia Söröző</p>
+</footer>
+
 </body>
 </html>
