@@ -174,7 +174,7 @@ body {
 
 .beer-card {
     position: relative;
-    height: 300px;
+    height: 500px;
     border-radius: 15px;
     overflow: hidden;
     display: flex;
@@ -182,6 +182,9 @@ body {
     justify-content: flex-end;
     padding: 20px;
     transition: 0.5s;
+    width: 500px;
+    text-align: center;
+    margin-left: 10%;
 }
 
 .beer-card:hover {
@@ -194,7 +197,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
 }
 
 /* FOOTER */
@@ -206,22 +209,44 @@ footer {
 .logoo{
     width: 100px;
 }
-#elso{
-    background-image: url(Pics/kobanyai_rocker_sor_2.jpg) ;
+#elso1{
+    background-image: url(Pics/Image\ \(6\).jfif) ;
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#masodik{
-    background-image: url(Pics/mosnter2.png);
+#masodik2{
+    background-image: url(Pics/Image\ \(4\).jfif);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#harmadik{
-    background-image: url(Pics/hordo.jpg);
+#harmadik3{
+    background-image: url(Pics/Image\ \(5\).jfif);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#negyedik4{
+    background-image: url(Pics/Image.jfif);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#otodik5{
+    background-image: url(Pics/Image\ \(1\).jfif);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+#hatodik6{
+    background-image: url(Pics/Image\ \(2\).jfif);
     display: flex;
     background-position: center;
     background-size: cover;
