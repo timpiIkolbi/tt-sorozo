@@ -172,6 +172,21 @@ body {
     margin-top: 50px;
 }
 
+.beer-cardf {
+    position: relative;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    transition: 0.5s;
+    width: 500px;
+    text-align: center;
+    margin-left: 17%;
+}
+
 .beer-card {
     position: relative;
     height: 500px;
@@ -184,7 +199,6 @@ body {
     transition: 0.5s;
     width: 500px;
     text-align: center;
-    margin-left: 10%;
 }
 
 .beer-card:hover {
@@ -209,36 +223,57 @@ footer {
 .logoo{
     width: 100px;
 }
+#elso{
+    background-image: url(Pics/kobanyai_rocker_sor_2.jpg) ;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#masodik{
+    background-image: url(Pics/mosnter2.png);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#harmadik{
+    background-image: url(Pics/hordo.jpg);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 #elso1{
-    background-image: url(Pics/Image\ \(6\).jfif) ;
+    background-image: url(Pics/munkatarsak/image.png) ;
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #masodik2{
-    background-image: url(Pics/Image\ \(4\).jfif);
+    background-image: url(Pics/munkatarsak/image\ \(1\).png);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #harmadik3{
-    background-image: url(Pics/Image\ \(5\).jfif);
+    background-image: url(Pics/munkatarsak/image\ \(2\).png);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #negyedik4{
-    background-image: url(Pics/Image.jfif);
+    background-image: url(Pics/munkatarsak/image\ \(3\).png);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #otodik5{
-    background-image: url(Pics/Image\ \(1\).jfif);
+    background-image: url(Pics/munkatarsak/image\ \(4\).png);
     display: flex;
     background-position: center;
     background-size: cover;
@@ -246,7 +281,7 @@ footer {
     color: black;
 }
 #hatodik6{
-    background-image: url(Pics/Image\ \(2\).jfif);
+    background-image: url(Pics/munkatarsak/image\ \(5\).png);
     display: flex;
     background-position: center;
     background-size: cover;
