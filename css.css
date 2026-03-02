@@ -49,6 +49,7 @@ body {
     text-decoration: none;
     color: white;
     position: relative;
+    
 }
 
 /* Underline animation */
@@ -199,6 +200,7 @@ body {
     transition: 0.5s;
     width: 500px;
     text-align: center;
+    margin-left: 17%;
 }
 
 .beer-card:hover {
@@ -245,35 +247,36 @@ footer {
     background-repeat: no-repeat;
 }
 #elso1{
-    background-image: url(Pics/munkatarsak/image.png) ;
+    background-image: url(Pics/munkatarsak/Man_as_bartender_294bb8f886.jpeg) ;
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 10%;
 }
 #masodik2{
-    background-image: url(Pics/munkatarsak/image\ \(1\).png);
+    background-image: url(Pics/munkatarsak/Ember_srz_minsgellenr_6556f9f000.jpeg);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #harmadik3{
-    background-image: url(Pics/munkatarsak/image\ \(2\).png);
+    background-image: url(Pics/munkatarsak/Nzzen_a_kamerban_mint_egy_bemutat_kp_2k_delpmaspu.png);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #negyedik4{
-    background-image: url(Pics/munkatarsak/image\ \(3\).png);
+    background-image: url(Pics/munkatarsak/Ezt_a_kpet_csak_kicsit_realisztikusabbra_2k_delpmaspu.png);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #otodik5{
-    background-image: url(Pics/munkatarsak/image\ \(4\).png);
+    background-image: url(Pics/munkatarsak/Ne_legyen_nla_a_szigony_2k_delpmaspu.png);
     display: flex;
     background-position: center;
     background-size: cover;
@@ -281,7 +284,7 @@ footer {
     color: black;
 }
 #hatodik6{
-    background-image: url(Pics/munkatarsak/image\ \(5\).png);
+    background-image: url(Pics/munkatarsak/Csinld_meg_ezt_az_embert_realisztikusra_s_a_csizma_delpmaspu.png);
     display: flex;
     background-position: center;
     background-size: cover;
