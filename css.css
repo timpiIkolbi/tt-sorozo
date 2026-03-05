@@ -39,6 +39,7 @@ body {
     list-style: none;
     display: flex;
     gap: 30px;
+    
 }
 
 .nav-links li {
@@ -49,10 +50,10 @@ body {
     text-decoration: none;
     color: white;
     position: relative;
+    font-size: 20px;
     
 }
 
-/* Underline animation */
 .nav-links a::after {
     content: "";
     position: absolute;
@@ -87,7 +88,7 @@ body {
     background: white;
 }
 
-/* ================= MOBILE ================= */
+/* ================= TELO ================= */
 
 @media (max-width: 40em) {
 
@@ -123,6 +124,15 @@ body {
     align-items: center;
     text-align: center;
 }
+.header-rolunk {
+    height: 100vh;
+    background: url("Pics/munkatarsak/image\ \(6\).png") center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 
 .hero h1 {
     font-size: 4rem;
@@ -172,7 +182,12 @@ body {
     gap: 30px;
     margin-top: 50px;
 }
-
+.beer-gridB {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    margin-top: 50px;
+    margin-bottom: 10%;
+}
 .beer-cardf {
     position: relative;
     height: 500px;
@@ -186,6 +201,32 @@ body {
     width: 500px;
     text-align: center;
     margin-left: 17%;
+}
+#bemutato-pic{
+    background-image: url(Pics/munkatarsak/Szembl_legyen__2k_delpmaspu.png) ;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
+.bevezeto-card {
+    position: relative;
+    height: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    transition: 0.5s;
+    width: 860px;
+    text-align: center;
+    margin-left: 17%;
+    font-size: 27px;
+    text-align: left;
+    
 }
 
 .beer-card {
@@ -247,7 +288,7 @@ footer {
     background-repeat: no-repeat;
 }
 #elso1{
-    background-image: url(Pics/munkatarsak/Man_as_bartender_294bb8f886.jpeg) ;
+    background-image: url(Pics/munkatarsak/adam.jpeg) ;
     display: flex;
     background-position: center;
     background-size: cover;
@@ -255,36 +296,35 @@ footer {
     margin-left: 10%;
 }
 #masodik2{
-    background-image: url(Pics/munkatarsak/Ember_srz_minsgellenr_6556f9f000.jpeg);
+    background-image: url(Pics/munkatarsak/buddha.jpeg);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #harmadik3{
-    background-image: url(Pics/munkatarsak/Nzzen_a_kamerban_mint_egy_bemutat_kp_2k_delpmaspu.png);
+    background-image: url(Pics/munkatarsak/shiva.png);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #negyedik4{
-    background-image: url(Pics/munkatarsak/Ezt_a_kpet_csak_kicsit_realisztikusabbra_2k_delpmaspu.png);
+    background-image: url(Pics/munkatarsak/sasaki.png);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #otodik5{
-    background-image: url(Pics/munkatarsak/Ne_legyen_nla_a_szigony_2k_delpmaspu.png);
+    background-image: url(Pics/munkatarsak/poseidon.png);
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: black;
 }
 #hatodik6{
-    background-image: url(Pics/munkatarsak/Csinld_meg_ezt_az_embert_realisztikusra_s_a_csizma_delpmaspu.png);
+    background-image: url(Pics/munkatarsak/hades.png);
     display: flex;
     background-position: center;
     background-size: cover;
