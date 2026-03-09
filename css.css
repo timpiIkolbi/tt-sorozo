@@ -208,7 +208,8 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 1000px;
+    width: 1500px;
 
 }
 .bevezeto-card {
@@ -226,7 +227,10 @@ body {
     margin-left: 17%;
     font-size: 27px;
     text-align: left;
-    
+    box-shadow: 20px black;
+    margin-right: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
 }
 
 .beer-card {
@@ -325,6 +329,13 @@ footer {
 }
 #hatodik6{
     background-image: url(Pics/munkatarsak/hades.png);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#keppp{
+    background-image: url(Pics/munkatarsak//Csinald_meg_ujra_2k_delpmaspu.png);
     display: flex;
     background-position: center;
     background-size: cover;
