@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termékek - Sörvilág</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <h2>Sörvilág</h2>
+    <nav>
+        <a href="index.html">Főoldal</a>
+        <a href="termekek.html">Termékek</a>
+        <a href="#">Kapcsolat</a>
+    </nav>
+</header>
+
+
+<section class="section">
+<h1 class="title">Sör kínálatunk</h1>
+
+<div class="product-grid">
+
+<div class="product-card">
+<img src="images/lager.jpg" alt="Lager sör">
+<h3>Lager</h3>
+<p>Könnyű, frissítő sör, klasszikus ízzel.</p>
+<span class="price">990 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card">
+<img src="images/ipa.jpg" alt="IPA sör">
+<h3>IPA</h3>
+<p>Erősen komlózott, karakteres ízű sör.</p>
+<span class="price">1290 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card">
+<img src="images/stout.jpg" alt="Stout sör">
+<h3>Stout</h3>
+<p>Sötét, krémes sör kávés jegyekkel.</p>
+<span class="price">1390 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card">
+<img src="images/wheat.jpg" alt="Búzasör">
+<h3>Búzasör</h3>
+<p>Gyümölcsös, könnyed búzasör.</p>
+<span class="price">1190 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card">
+<img src="images/pilsner.jpg" alt="Pilsner">
+<h3>Pilsner</h3>
+<p>Klasszikus cseh stílusú világos sör.</p>
+<span class="price">1090 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card">
+<img src="images/ale.jpg" alt="Ale">
+<h3>Ale</h3>
+<p>Gazdag aromájú felsőerjesztésű sör.</p>
+<span class="price">1250 Ft</span>
+<button>Részletek</button>
+</div>
+
+</div>
+</section>
+
+
+<footer>
+<p>© 2026 Sörvilág</p>
+</footer>
+
+</body>
+</html>
+.title{
+text-align:center;
+margin-bottom:50px;
+font-size:2.5rem;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+gap:30px;
+}
+
+.product-card{
+background:white;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+padding:20px;
+text-align:center;
+transition:0.3s;
+}
+
+.product-card:hover{
+transform:translateY(-5px);
+}
+
+.product-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:8px;
+margin-bottom:15px;
+}
+
+.price{
+display:block;
+font-size:1.2rem;
+font-weight:bold;
+margin:10px 0;
+}
+
+.product-card button{
+background:#ff9900;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.product-card button:hover{
+background:#e68900;
+}

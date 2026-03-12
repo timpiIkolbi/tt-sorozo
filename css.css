@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width:100%;
+    height:auto;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -185,8 +189,7 @@ body {
 .beer-gridB {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
-    margin-top: 50px;
-    margin-bottom: 10%;
+    margin-top: 50px;   
 }
 .beer-cardf {
     position: relative;
@@ -198,21 +201,24 @@ body {
     justify-content: flex-end;
     padding: 20px;
     transition: 0.5s;
-    width: 500px;
     text-align: center;
-    margin-left: 17%;
+}
+.beer-card,
+.beer-cardf {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
 }
 #bemutato-pic{
     background-image: url(Pics/munkatarsak/Szembl_legyen__2k_delpmaspu.png) ;
-    display: flex;
+    display: block;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
-    width: 1500px;
+    height: 60vh;
+    width: 100%;
 
 }
-.bevezeto-card {
+.bevezeto-card {  
     position: relative;
     height: 800px;
     border-radius: 15px;
@@ -222,16 +228,17 @@ body {
     justify-content: flex-end;
     padding: 20px;
     transition: 0.5s;
-    width: 860px;
+    width: 90%;
+    max-width: 900px;
     text-align: center;
-    margin-left: 17%;
     font-size: 27px;
     text-align: left;
     box-shadow: 20px black;
-    margin-right: 40%;
+    margin: auto;  
     background-color: rgba(0, 0, 0, 0.6);
-    align-items: center;
+    align-items: center;    
 }
+
 
 .beer-card {
     position: relative;
@@ -243,9 +250,7 @@ body {
     justify-content: flex-end;
     padding: 20px;
     transition: 0.5s;
-    width: 500px;
     text-align: center;
-    margin-left: 17%;
 }
 
 .beer-card:hover {
@@ -344,3 +349,30 @@ footer {
 .foldal-img{
     width: 100px;
 }
+@media (max-width: 768px) {
+
+    .beer-grid {
+        grid-template-columns: 1fr;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }    
+    .hero p {
+        font-size: 1rem;
+    }
+    .navbar{
+        padding: 15px 20px;
+    }
+    .section{
+        padding: 60px 15px;
+    }
+
+}
+/* tablet */
+@media (max-width: 1024px) { }
+
+/* mobil */
+@media (max-width: 768px) { }
+
+/* kis mobil */
+@media (max-width: 480px) { }
