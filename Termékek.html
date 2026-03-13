@@ -1,28 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CsizmaDia söröző</title>
-    <link rel="stylesheet" href="Css/Style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termékek - Sörvilág</title>
+<link rel="stylesheet" href="css.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div>
-                <label for="menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <input type="checkbox" id="menu">
-                <ul>
-                    <a href="Főoldal.html" class="logo"> <img class="foldal-img" src="Pics/CSDlogo-removebg-preview.png" alt="CsizmaDia söröző"></a>
-                    <li><a href="Főoldal.html">Főoldal</a></li>
-                    <li><a href="Termékek.html">Termékek</a></li>
-                    <li><a href="Rólunk.html">Rólunk</a></li>
-                </ul>
-            </div>
+
+    <header class="header">
+        <nav class="navbar">
+            
+            <a href="Főoldal.html" class="logo">
+                <img class="foldal-img" src="Pics/CSDlogo-removebg-preview.png" alt="CsizmaDia söröző">
+            </a>
+    
+            
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+    
+            <ul class="nav-links">
+                <li><a href="Főoldal.html">Főoldal</a></li>
+                <li><a href="Termékek.html">Termékek</a></li>
+                <li><a href="Rólunk.html">Rólunk</a></li>
+            </ul>
+    
+        </nav>
+    
+        <div class="hero">
+            <h1>CsizmaDia Söröző</h1>
+            <p>Stílus. Minőség. Hangulat.</p>
+            <a href="#kinalat" class="btn-glow">Fedezd fel</a>
+        </div>
     </header>
+
+
+<section class="section">
+<h1 class="title">Sör kínálatunk</h1>
+
+<div class="product-grid">
+
+<div class="product-card" class="kepppp">
+<h3>Lager</h3>
+<p>Könnyű, frissítő sör, klasszikus ízzel.</p>
+<span class="price">990 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card" class="kepppp">
+<h3>IPA</h3>
+<p>Erősen komlózott, karakteres ízű sör.</p>
+<span class="price">1290 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card" id="kepppp" style="background-image: url(Pics/Termékek/helheim\ monster.png);">
+<h3>Monster Hellheim</h3>
+<p>Sötét, krémes sör kávés jegyekkel.</p>
+<p>1199FT</p>
+<button>Részletek</button>
+</div>
+
+<div class="product-card" class="kepppp">
+<h3>Búzasör</h3>
+<p>Gyümölcsös, könnyed búzasör.</p>
+<span class="price">1190 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card" class="kepppp">
+<h3>Pilsner</h3>
+<p>Klasszikus cseh stílusú világos sör.</p>
+<span class="price">1090 Ft</span>
+<button>Részletek</button>
+</div>
+
+<div class="product-card" class="kepppp">
+<h3>Ale</h3>
+<p>Gazdag aromájú felsőerjesztésű sör.</p>
+<span class="price">1250 Ft</span>
+<button>Részletek</button>
+</div>
+
+</div>
+
+<div class="product-grid">
+
+    <div class="product-card" class="kepppp">    
+    <h3>Lager</h3>
+    <p>Könnyű, frissítő sör, klasszikus ízzel.</p>
+    <span class="price">990 Ft</span>
+    <button>Részletek</button>
+    </div>
+    
+    <div class="product-card" class="kepppp">    
+    <h3>IPA</h3>
+    <p>Erősen komlózott, karakteres ízű sör.</p>
+    <span class="price">1290 Ft</span>
+    <button>Részletek</button>
+    </div>
+    
+    <div class="product-card" class="kepppp">    
+    <h3>Stout</h3>
+    <p>Sötét, krémes sör kávés jegyekkel.</p>
+    <span class="price">1390 Ft</span>
+    <button>Részletek</button>
+    </div>
+    
+    <div class="product-card" class="kepppp" >    
+    <h3>Búzasör</h3>
+    <p>Gyümölcsös, könnyed búzasör.</p>
+    <span class="price">1190 Ft</span>
+    <button>Részletek</button>
+    </div>
+    
+    <div class="product-card" class="kepppp" >    
+    <h3>Pilsner</h3>
+    <p>Klasszikus cseh stílusú világos sör.</p>
+    <span class="price">1090 Ft</span>
+    <button>Részletek</button>
+    </div>
+    
+    <div class="product-card" class="kepppp" >    
+    <h3>Ale</h3>
+    <p>Gazdag aromájú felsőerjesztésű sör.</p>
+    <span class="price">1250 Ft</span>
+    <button>Részletek</button>
+    </div>
+    
+    </div>
+</section>
+
+
+<footer>
+<p>© 2026 Sörvilág</p>
+</footer>
+
 </body>
 </html>
